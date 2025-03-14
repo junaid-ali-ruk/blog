@@ -19,7 +19,7 @@ const Posts = ({ posts, className, authors }) => {
               src={post.frontmatter.image}
               alt={post.frontmatter.title}
               width={i === 0 ? "925" : "445"}
-              height={i === 0 ? "475" : "230"}
+              height={i === 0 ? "275px" : "230"}
               priority={i === 0 ? true : false}
             />
           )}
